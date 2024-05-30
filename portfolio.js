@@ -5,3 +5,11 @@ var typed = new Typed(".text", {
    backdelay: 10,
    loop: true,
  });
+ function myFunction(){
+  var x = document.getElementById("myresponsive");
+  if (x .className=== "myresponsive"){
+    x .className+= "responsive"
+    } else {
+      x .className = "myresponsive";
+  }
+ }
